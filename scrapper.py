@@ -23,7 +23,7 @@ def main():
         
             try:
                 filename = input('name of file')
-                with open('C:\\Users\\jafet\\OneDrive\\Desktop\\County data\\'+ filename +'.txt', 'a') as f:
+                with open('C:\\Users\\'+ filename +'.txt', 'a') as f:
                     line = 0
                     for string in values:
                         print(string, file=f)
