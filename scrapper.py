@@ -47,3 +47,32 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
+    
+    
+    
+#----------------------for image download ------------------------------------#
+    
+    
+#     from bs4 import BeautifulSoup
+# import requests
+# import subprocess
+
+# url = "https://www.centralbank.go.ke/governors/"
+# html = requests.get(url).text 
+# soup = BeautifulSoup(html, "html.parser") 
+
+
+# imgs = soup.findAll("img")
+# for img in imgs:
+#     try:
+#         print(img['src'])
+#         imgUrl = img['src']
+#         cmd = [ 'wget', imgUrl ]
+#         subprocess.Popen(cmd) # run the command to download
+#         # if you don't want to run it parallel;
+#         # and wait for each image to download just add communicate
+#         subprocess.Popen(cmd).communicate()
+#     except:
+#         print('unable to retrieve ' + img ['src'])
